@@ -1,0 +1,37 @@
+services => intro event
+card diganti aktivity
+
+feature diganti jadi lokasi
+tanggal, lokasi, google map
+
+project diganti speaker / lineup
+
+pricing diganti package
+
+crew member diganti sponsor
+sponsor 3 jenis
+bronze silver gold
+
+dibawah sponsor ada kampus afiliate 
+sponsor nya siapa :
+
+
+dibawah nya ada acara ini didukung oleh :
+diisi vanue yang bekerja sama
+
+footer twitter hapus ganti tiktok, linkedin
+
+tambah floating whatsapp
+
+
+Comsnets Gathering 2023
+
+adress diganti jadi sekretariat ( bahasa inggris )
+
+selasa presentasi
+
+kartu diganti jadi slider 
+
+color : 
+broken white
+f6f3df
