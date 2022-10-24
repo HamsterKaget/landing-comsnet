@@ -245,6 +245,52 @@ section {
   }
 }
 
+#sponsor .sponsor {
+  box-shadow: var(--box-shadow);
+  background-color: var(--light-0);
+  margin-top: -8px;
+  transition: all 0.35s ease;
+  border-radius: 8px;
+}
+#sponsor .gold {
+  padding: 0px 15px;
+}
+#sponsor .gold .image {
+  max-height: 200px;
+  max-width: 300px;
+}
+#sponsor .gold .image img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#sponsor .silver {
+  padding: 0px 10px;
+}
+#sponsor .silver .image {
+  max-height: 150px;
+  max-width: 200px;
+}
+#sponsor .silver .image img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#sponsor .bronze {
+  padding: 0px 5px;
+}
+#sponsor .bronze .image {
+  max-height: 150px;
+  max-width: 200px;
+}
+#sponsor .bronze .image img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 #sponsor .team-member img {
   width: 150px;
   height: 150px;
