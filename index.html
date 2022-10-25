@@ -216,7 +216,51 @@
         </section>
         <!-- Event Detail Section End -->
 
-        <section id="speaker">
+        <!-- Milestone Section Start -->
+        <section id="milestone" class="">
+            <div class="container">
+                <div class="row" data-aos="fade-down">
+                    <div class="col-md-8 mx-auto text-center">
+                        <h6 class="s-text-primary">milestone</h6>
+                        <h1>WHO'S ATTEND ?</h1>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab voluptates tempora velit reprehenderit accusamus voluptas repudiandae.</p> -->
+                    </div>
+                </div>
+                <div class="row counter-wrapper d-flex justify-content-center g-3">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-container d-flex flex-column justify-content-around">
+                            <i class="bx bxs-component"></i>
+                            <span class="num d-grid" data-val="24">0</span>
+                            <span class="text">Counter Name</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-container d-flex flex-column justify-content-around">
+                            <i class="bx bxs-component"></i>
+                            <span class="num d-grid" data-val="210">{number}</span>
+                            <span class="text">Counter Name</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-container d-flex flex-column justify-content-around">
+                            <i class="bx bxs-component"></i>
+                            <span class="num d-grid" data-val="280">{number}</span>
+                            <span class="text">Counter Name</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-container d-flex flex-column justify-content-around">
+                            <i class="bx bxs-component"></i>
+                            <span class="num d-grid" data-val="400">{number}</span>
+                            <span class="text">Counter Name</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Milestone Section End -->
+
+        <section id="speaker" class="bg-light">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 mx-auto text-center">
@@ -358,7 +402,7 @@
         </section>
 
         <!-- Package Section Start -->
-        <section id="package" class="bg-light">
+        <section id="package" class="">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8 mx-auto text-center">
@@ -438,7 +482,7 @@
         <!-- Package Section End -->
 
         <!-- Sponsor Section Start -->
-        <section id="sponsor" class="">
+        <section id="sponsor" class="bg-light">
             <div class="container">
                 <div class="row mb-3">
                     <div class="col-md-8 mx-auto text-center">
@@ -447,23 +491,69 @@
                         <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab voluptates tempora velit reprehenderit accusamus voluptas repudiandae</p> -->
                     </div>
                 </div>
-                <div class="row text-center g-3 justify-content-center">
+                <div class="row g-3 justify-content-center">
                     <div class="col-lg-4 col-md-6">
-                        <div class="sponsor gold">
+                        <div class="sponsor gold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="image mx-auto">
+                                <img src="./image/sponsor1.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Github</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="containel-fluid">
+                                        <div class="row justify-content-center">
+                                            <div class="col-6">
+                                                <p class="text-left">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem quam voluptatem iusto dignissimos voluptatibus eaque porro. Quas esse itaque consequuntur, adipisci debitis sapiente
+                                                    impedit nesciunt, nemo atque voluptatem, error architecto.
+
+                                                    <br /><br />
+
+                                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati accusamus dolorem expedita voluptatibus doloribus esse eaque quae animi. Asperiores laborum, provident ullam beatae
+                                                    molestiae aut! Assumenda ipsam accusantium eos adipisci.
+
+                                                    <br /><br />
+                                                    for more you can check this <a href="https://github.com" target="_blank">link</a>
+                                                </p>
+                                            </div>
+
+                                            <div class="col-4 d-flex flex-column align-items-center">
+                                                <h6>GOLD SPONSOR</h6>
+                                                <div class="image">
+                                                    <img src="./image/sponsor1.png" alt="" style="height: 50%" />
+                                                </div>
+                                                <!-- <div class="image-vertical">
+                                                    <img src="./image/blog1.jpg" alt="" />
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3 justify-content-end">
+                                            <div class="col-6"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="sponsor gold" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <div class="image mx-auto">
                                 <img src="./image/sponsor1.png" alt="" />
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="sponsor gold">
-                            <div class="image mx-auto">
-                                <img src="./image/sponsor1.png" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="sponsor gold">
+                        <div class="sponsor gold" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <div class="image mx-auto">
                                 <img src="./image/sponsor1.png" alt="" />
                             </div>
@@ -477,11 +567,56 @@
                         <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab voluptates tempora velit reprehenderit accusamus voluptas repudiandae</p> -->
                     </div>
                 </div>
-                <div class="row text-center g-3 justify-content-center">
+                <div class="row g-3 justify-content-center">
                     <div class="col-lg-4 col-md-6">
-                        <div class="sponsor silver">
+                        <div class="sponsor silver" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                             <div class="image mx-auto">
                                 <img src="./image/sponsor1.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Github</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="containel-fluid">
+                                        <div class="row justify-content-center">
+                                            <div class="col-6">
+                                                <p class="text-left">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem quam voluptatem iusto dignissimos voluptatibus eaque porro. Quas esse itaque consequuntur, adipisci debitis sapiente
+                                                    impedit nesciunt, nemo atque voluptatem, error architecto.
+
+                                                    <br /><br />
+
+                                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati accusamus dolorem expedita voluptatibus doloribus esse eaque quae animi. Asperiores laborum, provident ullam beatae
+                                                    molestiae aut! Assumenda ipsam accusantium eos adipisci.
+
+                                                    <br /><br />
+                                                    for more you can check this <a href="https://github.com" target="_blank">link</a>
+                                                </p>
+                                            </div>
+
+                                            <div class="col-4 d-flex flex-column align-items-center">
+                                                <h6>GOLD SPONSOR</h6>
+                                                <div class="image">
+                                                    <img src="./image/sponsor1.png" alt="" style="height: 50%" />
+                                                </div>
+                                                <!-- <div class="image-vertical">
+                                                    <img src="./image/blog1.jpg" alt="" />
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3 justify-content-end">
+                                            <div class="col-6"></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -563,7 +698,7 @@
         <!-- Sponsor Section End -->
 
         <!-- Blog Section Start -->
-        <section id="blog" class="bg-light">
+        <section id="blog" class="">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 mx-auto text-center">
@@ -701,6 +836,23 @@
         </script>
 
         <div id="wa" style="z-index: 100"></div>
+
+        <script>
+            let valueDisplays = document.querySelectorAll(".num");
+            let interval = 4000;
+            valueDisplays.forEach((valueDisplay) => {
+                let startValue = 0;
+                let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+                let duration = Math.floor(interval / endValue);
+                let counter = setInterval(function () {
+                    startValue += 1;
+                    valueDisplay.textContent = startValue;
+                    if (startValue == endValue) {
+                        clearInterval(counter);
+                    }
+                }, duration);
+            });
+        </script>
     </body>
 
     <script type="text/javascript">
