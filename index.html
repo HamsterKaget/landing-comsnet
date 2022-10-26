@@ -65,6 +65,39 @@
         </div>
         <!-- Hero Section End -->
 
+        <!-- Counter Section Start -->
+        <section id="counter" class="">
+            <div class="container">
+                <div class="row counter-wrapper d-flex justify-content-center g-3">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-container d-flex flex-column justify-content-around">
+                            <span class="num-counter d-grid" id="days">0</span>
+                            <span class="text">Days</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-container d-flex flex-column justify-content-around">
+                            <span class="num-counter d-grid" id="hours">0</span>
+                            <span class="text">Hours</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-container d-flex flex-column justify-content-around">
+                            <span class="num-counter d-grid" id="minutes">0</span>
+                            <span class="text">Minutes</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-container d-flex flex-column justify-content-around">
+                            <span class="num-counter d-grid" id="seconds">0</span>
+                            <span class="text">Seconds</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Counter Section End -->
+
         <!-- Intro Event Section Start -->
         <section id="intro-event" class="bg-light">
             <div class="container">
@@ -836,6 +869,8 @@
         </script>
 
         <div id="wa" style="z-index: 100"></div>
+
+        <script src="./script/script.js"></script>
 
         <script>
             let valueDisplays = document.querySelectorAll(".num");
