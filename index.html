@@ -496,6 +496,8 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                         <div class="swiper-pagination" style="margin-top: 50px"></div>
                     </div>
                 </div>
@@ -963,6 +965,14 @@
                 // centeredSlides: true,
                 slidesPerView: 1,
                 spaceBetween: 30,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
                 pagination: {
                     el: ".swiper-pagination",
                     clickable: true,
